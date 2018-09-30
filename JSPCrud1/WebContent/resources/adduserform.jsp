@@ -7,7 +7,7 @@
 <title>Add User Form</title>  
 </head>  
 <body>  
-  
+  <h1>adduserfrompage</h1>
 <jsp:include page="userform.html"></jsp:include>  
   
 </body>

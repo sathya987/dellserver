@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
-  <display-name>JSPCrud1</display-name>
-  <welcome-file-list>
-    <welcome-file>resources/index.jsp</welcome-file>
-    
-  </welcome-file-list>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>JSPCrud1</display-name>
+	<servlet>
+		<servlet-name>User1</servlet-name>
+		<servlet-class>com.javatpoint.bean.User</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>User1</servlet-name>
+	<url-pattern>/User</url-pattern>
+	
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>UserDao1</servlet-name>
+		<servlet-class>com.javatpoint.dao.UserDao</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	<servlet-name>UserDao1</servlet-name>
+	<url-pattern>/UserDao</url-pattern>
+	
+	
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>resources/index.jsp</welcome-file>
+		<welcome-file>resources/adduser.jsp</welcome-file>
+		<welcome-file>resources/adduser-succes.jsp</welcome-file>
+		<welcome-file>resources/adduser-error.jsp</welcome-file>
+		<welcome-file>resources/adduserform.jsp</welcome-file>
+		<welcome-file>resources/deleteuser.jsp</welcome-file>
+		<welcome-file>resources/edituser.jsp</welcome-file>
+		<welcome-file>resources/userform.jsp</welcome-file>
+		<welcome-file>resources/viewusers.jsp</welcome-file>
+
+	</welcome-file-list>
 </web-app>
