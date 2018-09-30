@@ -8,8 +8,10 @@
 </head>  
 <body>  
 <h1>JSP CRUD Example</h1>  
-<a href="adduserform.jsp">Add User</a>  
-<a href="viewusers.jsp">View Users</a>  
+<li><a href="resources/adduserform.jsp">Add User</a></li> <br> 
+<a href="resources/viewusers.jsp">View Users</a> 
+
+
 
 </body>
 </html>
