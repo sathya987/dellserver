@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: flightreservation
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: PRINCE
+Implementation-Vendor-Id: com.hcl.flightreservation
+Build-Jdk: 1.8.0_201
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/flightreservation
+Created-By: Maven Integration for Eclipse
+
